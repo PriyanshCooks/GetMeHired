@@ -1,0 +1,115 @@
+{
+  "ollama_base_url": "http://localhost:11434",
+  "ollama_model": "qwen3.5:4b",
+  "llm_temperature": 0.4,
+  "stage": {
+    "title": "Stage Ready for AI & Engineering Opportunities",
+    "description": "Your candidate profile and search preferences are pre-loaded. Click below to launch the autonomous hunt.",
+    "badge_text": "ACTIVE STAGE • ₹7-10 LPA",
+    "subtitle": "AI Systems • GenAI • Autonomous Pipelines • Remote ($0 Spend)",
+    "button_text": "Start Live Startup & Job Hunt"
+  },
+  "target_roles": [
+    "Agentic AI Engineer",
+    "Generative AI Engineer",
+    "Junior AI Engineer",
+    "Associate AIML Engineer",
+    "AI Systems Engineer"
+  ],
+  "target_locations": [
+    "Gurugram",
+    "Pune",
+    "Bengaluru",
+    "Remote"
+  ],
+  "experience_level": "0-3 years",
+  "target_salary_min": 700000,
+  "target_salary_max": 1000000,
+  "target_salary_display": "₹7-10 LPA",
+  "company_size": "50-300 employees",
+  "remote_only": false,
+  "max_results_per_source": 15,
+  "sources": {
+    "linkedin": true,
+    "naukri": true,
+    "wellfound": true,
+    "indeed": true,
+    "glassdoor": true
+  },
+  "agent_directives": "Target fast-moving AI startups and product companies with 50-300 employees offering 7-10 LPA. Strictly avoid mass IT service firms. For small startups, identify Founders, CEOs, and CTOs directly. When generating outreach, highlight real-world project workflows and measurable impact.",
+  "excluded_companies": [
+    "TCS", "Infosys", "Wipro", "Cognizant", "Accenture", "Capgemini",
+    "Tech Mahindra", "HCLTech", "LTIMindtree", "Mphasis", "Hexaware",
+    "IBM", "DXC Technology", "Birlasoft", "Persistent Systems"
+  ],
+  "scheduler": {
+    "enabled": true,
+    "interval_minutes": 30,
+    "last_run": null,
+    "next_run": null,
+    "auto_eval_fit": true,
+    "auto_find_contacts": true,
+    "auto_draft_outreach": true,
+    "auto_notify_threshold": 75,
+    "status": "idle"
+  },
+  "notifications": {
+    "ntfy_enabled": true,
+    "ntfy_topic": "getmehired_alerts",
+    "email_enabled": false,
+    "email_smtp_host": "smtp.gmail.com",
+    "email_smtp_port": 587,
+    "email_user": "",
+    "email_pass": "",
+    "email_recipient": "",
+    "telegram_enabled": false,
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  },
+  "active_profile_id": "default",
+  "profiles": {
+    "default": {
+      "id": "default",
+      "full_name": "AI Engineer",
+      "headline": "Agentic AI & GenAI Systems Engineer",
+      "email": "engineer@example.com",
+      "phone": "",
+      "location": "Remote",
+      "education": "B.Tech Computer Science (AIML)",
+      "linkedin_url": "https://linkedin.com",
+      "github_url": "https://github.com",
+      "portfolio_url": "",
+      "ntfy_topic": "getmehired_alerts",
+      "summary": "AI/ML Engineer specializing in Agentic AI, Generative AI, and production-ready AI systems with hands-on experience building multi-agent workflows, tool integrations, and RAG pipelines.",
+      "skills": [
+        "Python", "LangGraph", "Agentic AI", "Model Context Protocol (MCP)", "FastMCP",
+        "Generative AI", "RAG", "Multi-Agent Systems", "FastAPI", "Docker", "PyTorch"
+      ],
+      "experience_years": 1,
+      "agent_directives": "Highlight production workflow architecture and tool calling capabilities in all outreach.",
+      "resume_text": ""
+    }
+  },
+  "user_profile": {
+    "full_name": "AI Engineer",
+    "headline": "Agentic AI & GenAI Systems Engineer",
+    "email": "engineer@example.com",
+    "phone": "",
+    "linkedin_url": "https://linkedin.com",
+    "linkedin_cookie_li_at": "",
+    "naukri_url": "",
+    "naukri_username": "",
+    "wellfound_url": "",
+    "github_url": "https://github.com",
+    "portfolio_url": "",
+    "summary": "AI/ML Engineer specializing in Agentic AI, Generative AI, and production-ready AI systems.",
+    "skills": [
+      "Python", "LangGraph", "Agentic AI", "Model Context Protocol (MCP)", "FastMCP",
+      "Generative AI", "RAG", "Multi-Agent Systems", "FastAPI", "Docker", "PyTorch"
+    ],
+    "experience_years": 1,
+    "resume_text": "",
+    "cover_letter_template": "",
+    "education": "B.Tech Computer Science"
+  }
+}

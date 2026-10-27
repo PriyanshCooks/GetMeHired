@@ -1,0 +1,25 @@
+# GetMeHired - Autonomous AI Job Hunter & Referral Engine
+# Core Web Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+
+# LLM, HTTP & Scrapers
+requests>=2.31.0
+httpx>=0.27.0
+duckduckgo_search>=5.0.0
+python-jobspy>=1.1.50
+curl_cffi>=0.7.0
+beautifulsoup4>=4.12.0
+markdownify>=0.11.6
+lxml>=5.1.0
+
+# Automation, PDFs & Background Tasks
+APScheduler>=3.10.4
+pypdf>=4.0.0
+playwright>=1.42.0
+
+# Testing & Quality
+pytest>=8.0.0
